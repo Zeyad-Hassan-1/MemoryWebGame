@@ -1,0 +1,53 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #E3F2FD;
+}
+
+#root{
+    width: 100%;
+}
+
+h3{
+   position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+ul{
+    justify-content: space-evenly;
+}
+
+li{
+    width: calc(80% / 5);
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+li:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+.GameContainer{
+    width: 100%;
+}
+
+.levels{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 10%;
+}
+
+.levels button{
+    padding: 10px;
+    width: 25%;
+}
